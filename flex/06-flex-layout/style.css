@@ -62,6 +62,9 @@ a{
 align-items: flex-end;
 background-color: beige;
 margin-top: 20px;
+position: absolute;
+bottom: 0px;
+width: 100%;
 }
 
 .content{
@@ -75,4 +78,20 @@ align-items: center;
 li{
 
   margin: 10px;
+}
+
+body{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
